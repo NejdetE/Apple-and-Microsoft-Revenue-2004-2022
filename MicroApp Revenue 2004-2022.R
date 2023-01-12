@@ -9,8 +9,8 @@ MicroApp <- MicroApp %>%
 
 View(MicroApp)
 
-Apple.png <- rep(c("C:/Users/nejde/Desktop/Logos/Apple-logo1.png"), 19)
-Microsoft.png <- rep(c("C:/Users/nejde/Desktop/Logos/Microsoft-logo1.png"), 19)
+Apple.png <- rep(c("C:/Users/nejde/Desktop/Logos/Apple-logo1.png"), 1)
+Microsoft.png <- rep(c("C:/Users/nejde/Desktop/Logos/Microsoft-logo1.png"), 1)
 
 MicroApp %>% 
   ggplot() +
