@@ -27,8 +27,8 @@ MicroApp %>%
         axis.text = element_text(size = 11),
         plot.title = element_text(family = "serif", size = 18.5),
         plot.subtitle = element_text(family = "serif", face = "italic", size = 15)) + 
-  geom_image(aes(x = Year, y = Apple, image = Apple.png), size = 0.045) +
-  geom_image(aes(x = Year, y = Microsoft, image = Microsoft.png), size = 0.045)
+  geom_image(aes(x = Year, y = Apple, image = Apple.png), size = 0.04) +
+  geom_image(aes(x = Year, y = Microsoft, image = Microsoft.png), size = 0.04)
 
 
   
