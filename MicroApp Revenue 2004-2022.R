@@ -1,5 +1,5 @@
 library(readxl)
-MicroApp_Revenue_2004_2022 <- read_excel("C:/Users/nejde/Desktop/MicroApp Revenue 2004-2022.xlsx")
+MicroApp_Revenue_2004_2022 <- read_excel("xlsx-file")
 View(MicroApp_Revenue_2004_2022)
 
 MicroApp <- MicroApp_Revenue_2004_2022
@@ -9,8 +9,8 @@ MicroApp <- MicroApp %>%
 
 View(MicroApp)
 
-Apple.png <- rep(c("C:/Users/nejde/Desktop/Logos/Apple-logo1.png"), 1)
-Microsoft.png <- rep(c("C:/Users/nejde/Desktop/Logos/Microsoft-logo1.png"), 1)
+Apple.png <- rep(c("PNG"), 1)
+Microsoft.png <- rep(c("PNG"), 1)
 
 MicroApp %>% 
   ggplot() +
